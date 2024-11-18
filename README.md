@@ -29,7 +29,7 @@ main.cpp: Driver program demonstrating polymorphism by processing various employ
     <ol>
         <li>Clone this repository:
             <pre>git clone https://github.com/JuliaPetterle/PayrollSystemUsingPolymorphism.git</pre>
-            <pre>cd PayrollSystemUsingPolymorphism</pre>
+            <cd PayrollSystemUsingPolymorphism</pre>
         </li>
         <li>Compile the code using a C++ compiler:
             <pre>g++ -o payroll main.cpp employee.cpp hourly.cpp salaried.cpp commission.cpp baseplus.cpp</pre>
@@ -38,10 +38,3 @@ main.cpp: Driver program demonstrating polymorphism by processing various employ
             <pre>./payroll</pre>
         </li>
     </ol>
-
-    <h2>Key Learnings</h2>
-    <ul>
-        <li>Polymorphism enables clean, extendable designs.</li>
-        <li>Applying object-oriented principles in real-world systems.</li>
-        <li>Efficient payroll calculation using virtual functions and dynamic binding.</li>
-    </ul>

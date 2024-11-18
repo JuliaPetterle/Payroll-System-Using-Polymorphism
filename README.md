@@ -24,3 +24,24 @@ salaried.h & salaried.cpp: Definitions and implementations for salaried employee
 commission.h & commission.cpp: Definitions and implementations for commission-based employees.
 baseplus.h & baseplus.cpp: Extends the commission model to include a base salary.
 main.cpp: Driver program demonstrating polymorphism by processing various employee types.
+
+<h2>How to Run</h2>
+    <ol>
+        <li>Clone this repository:
+            <pre>git clone https://github.com/JuliaPetterle/PayrollSystemUsingPolymorphism.git</pre>
+            <pre>cd PayrollSystemUsingPolymorphism</pre>
+        </li>
+        <li>Compile the code using a C++ compiler:
+            <pre>g++ -o payroll main.cpp employee.cpp hourly.cpp salaried.cpp commission.cpp baseplus.cpp</pre>
+        </li>
+        <li>Run the program:
+            <pre>./payroll</pre>
+        </li>
+    </ol>
+
+    <h2>Key Learnings</h2>
+    <ul>
+        <li>Polymorphism enables clean, extendable designs.</li>
+        <li>Applying object-oriented principles in real-world systems.</li>
+        <li>Efficient payroll calculation using virtual functions and dynamic binding.</li>
+    </ul>
